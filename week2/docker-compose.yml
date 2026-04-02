@@ -1,0 +1,10 @@
+# Spring -> properties -> yml
+
+name: ai-rag-study
+
+services:
+  ollama: 
+    image: ollama/ollama
+    container_name: ai-ollama
+    ports: 
+      - "11434:11434" # host port : guest port
